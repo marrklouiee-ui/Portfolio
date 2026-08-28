@@ -78,7 +78,7 @@ section h2 {
 
 /* Home */
 
-#home {
+home {
     min-height: 90vh;
 
     display: flex;
@@ -93,14 +93,14 @@ section h2 {
 }
 
 
-#home h2 {
+home h2 {
     font-size: 45px;
 
     margin-bottom: 15px;
 }
 
 
-#home span {
+home span {
     color: #38bdf8;
 }
 
