@@ -342,7 +342,8 @@ footer {
 .interest {
     display: flex;
     align-items: center;
-    gap: 15px;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .interest img {
