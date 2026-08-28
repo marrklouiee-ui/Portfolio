@@ -80,11 +80,13 @@ let lastScrollY = window.scrollY;
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
-    if (window.scrollY > lastScrollY) {
-        // Swiping/scrolling down
+
+    if (window.scrollY > lastScrollY && window.scrollY > 50) {
+        // Scrolling down
         header.classList.add("hide");
-    } else {
-        // Swiping/scrolling up
+    } 
+    else if (window.scrollY < lastScrollY) {
+        // Scrolling up
         header.classList.remove("hide");
     }
 
