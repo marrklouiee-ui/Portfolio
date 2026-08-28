@@ -86,20 +86,20 @@ nav a.active {
 @media (max-width: 600px) {
 
     nav {
-        width: 90%;
-        max-width: 100%;
+        width: 85%;
+        max-width: 700px;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 3px;
-        padding: 6px;
-        overflow: hidden;
+        gap: 8px;
+        padding: 12px;
+        overflow: visible;
     }
 
     nav a {
-        font-size: 11px;
-        padding: 8px 7px;
-        white-space: normal;
+        font-size: 1.1rem;
+        padding: 10px 15px;
     }
+
 }
 
 
