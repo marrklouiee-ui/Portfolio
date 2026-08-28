@@ -79,16 +79,19 @@ nav a:hover {
 
 /* Mobile */
 @media (max-width: 600px) {
-
     nav {
         width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 3px;
-        padding: 5px;
+        padding: 6px;
     }
 
     nav a {
-        font-size: 13px;
-        padding: 9px 10px;
+        font-size: 12px;
+        padding: 8px 9px;
+        text-align: center;
     }
 }
 
