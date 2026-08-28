@@ -1,6 +1,4 @@
-/* =========================
-   GENERAL
-========================= */
+
 
 * {
     box-sizing: border-box;
@@ -286,25 +284,12 @@ footer p {
    MOBILE
 ========================= */
 
-@media (max-width: 600px) {
-
-    header {
-        padding: 25px 10px 20px;
-    }
 
     header h1 {
         font-size: 38px;
         margin-bottom: 15px;
     }
 
-    nav {
-        gap: 3px;
-    }
-
-    nav a {
-        font-size: 17px;
-        padding: 8px 10px;
-    }
 
     section {
         padding: 80px 20px;
@@ -352,9 +337,6 @@ footer p {
     footer {
         padding: 25px 15px;
     }
-}
-nav a:active {
-    transform: scale(0.95);
 }
 
 
