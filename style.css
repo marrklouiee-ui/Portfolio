@@ -293,10 +293,10 @@ section {
 .education-card {
     background: #1e293b;
 
-    border-left: 4px solid #D4AF37;
+    border: 1px solid #334155;
+    border-left: 5px solid #D4AF37;
 
     padding: 25px;
-
     border-radius: 10px;
 }
 
