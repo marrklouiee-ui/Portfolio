@@ -46,7 +46,6 @@ header h1 {
 ========================= */
 
 nav {
-nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,13 +71,13 @@ nav a {
 }
 
 nav a:hover {
-    color: white;
+    color: #ffffff;
     border-color: #38bdf8;
     background: #1a3555;
 }
 
 nav a.active {
-    color: white;
+    color: #ffffff;
     background: #234b75;
     border-color: #234b75;
 }
