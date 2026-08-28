@@ -76,19 +76,3 @@ window.addEventListener("scroll", () => {
 
 });
 
-let lastScrollY = window.scrollY;
-const header = document.querySelector("header");
-
-window.addEventListener("scroll", () => {
-
-    if (window.scrollY > lastScrollY && window.scrollY > 50) {
-        // Scrolling down
-        header.classList.add("hide");
-    } 
-    else if (window.scrollY < lastScrollY) {
-        // Scrolling up
-        header.classList.remove("hide");
-    }
-
-    lastScrollY = window.scrollY;
-});
