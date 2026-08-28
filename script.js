@@ -75,3 +75,18 @@ window.addEventListener("scroll", () => {
     });
 
 });
+
+let lastScrollY = window.scrollY;
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > lastScrollY) {
+        // Swiping/scrolling down
+        header.classList.add("hide");
+    } else {
+        // Swiping/scrolling up
+        header.classList.remove("hide");
+    }
+
+    lastScrollY = window.scrollY;
+});
