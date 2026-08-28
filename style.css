@@ -46,37 +46,42 @@ header h1 {
 ========================= */
 
 nav {
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 4px;
+    gap: 8px;
     width: 90%;
     max-width: 700px;
     margin: 0 auto;
-    padding: 6px;
-    background: #111c30;
-    border: 1px solid #263957;
-    border-radius: 18px;
-    overflow: hidden;
+    padding: 10px;
+    background: #111d32;
+    border: 1px solid #334e68;
+    border-radius: 30px;
 }
 
 nav a {
-    color: #9aa9c0;
+    color: #a8b6cc;
     text-decoration: none;
-    font-size: 14px;
-    padding: 8px 10px;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border: 1px solid #334e68;
     border-radius: 12px;
-    white-space: normal;
-    text-align: center;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 
 nav a:hover {
     color: white;
-    background: #1d3b5c;
+    border-color: #38bdf8;
+    background: #1a3555;
 }
 
+nav a.active {
+    color: white;
+    background: #234b75;
+    border-color: #234b75;
+}
 /* Mobile */
 @media (max-width: 600px) {
 
