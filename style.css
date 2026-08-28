@@ -358,21 +358,7 @@ nav a:active {
 }
 
 
-/* Mobile navbar */
-@media (max-width: 600px) {
-    nav {
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        justify-content: flex-start;
-        width: 100%;
-    }
 
-    nav a {
-        white-space: nowrap;
-        font-size: 15px;
-        padding: 8px 10px;
-    }
-}
 .profile {
     width: 100px;
     height: 100px;
