@@ -47,20 +47,3 @@ function showProject(projectName) {
     );
 
 }
-const profilePhoto = document.getElementById("profilePhoto");
-const photoModal = document.getElementById("photoModal");
-const closePhoto = document.querySelector(".close-photo");
-
-profilePhoto.addEventListener("click", function () {
-    photoModal.style.display = "flex";
-});
-
-closePhoto.addEventListener("click", function () {
-    photoModal.style.display = "none";
-});
-
-photoModal.addEventListener("click", function (event) {
-    if (event.target === photoModal) {
-        photoModal.style.display = "none";
-    }
-});
