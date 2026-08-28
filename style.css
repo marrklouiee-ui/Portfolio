@@ -51,8 +51,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;          /* allows 2 rows */
-    gap: 5px;
+    flex-wrap: wrap;
+    gap: 4px;
     width: 90%;
     max-width: 700px;
     margin: 0 auto;
@@ -60,15 +60,17 @@ nav {
     background: #111c30;
     border: 1px solid #263957;
     border-radius: 18px;
+    overflow: hidden;
 }
 
 nav a {
     color: #9aa9c0;
     text-decoration: none;
     font-size: 14px;
-    padding: 10px 12px;
+    padding: 8px 10px;
     border-radius: 12px;
-    white-space: nowrap;
+    white-space: normal;
+    text-align: center;
     transition: 0.3s;
 }
 
@@ -79,19 +81,21 @@ nav a:hover {
 
 /* Mobile */
 @media (max-width: 600px) {
+
     nav {
         width: 90%;
-        display: flex;
+        max-width: 100%;
         flex-wrap: wrap;
         justify-content: center;
         gap: 3px;
         padding: 6px;
+        overflow: hidden;
     }
 
     nav a {
-        font-size: 12px;
-        padding: 8px 9px;
-        text-align: center;
+        font-size: 11px;
+        padding: 8px 7px;
+        white-space: normal;
     }
 }
 
