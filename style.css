@@ -539,4 +539,32 @@ footer p {
 
     margin-bottom: 30px;
 }
+/* FIX NAVIGATION */
+nav {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 6px;
+    background: #111c30;
+    border: 1px solid #263957;
+    border-radius: 18px;
+    overflow: visible;
+}
 
+nav a {
+    display: block;
+    flex: 0 0 auto;
+    width: auto;
+    white-space: nowrap;
+    font-size: 13px;
+    padding: 9px 10px;
+    text-decoration: none;
+    color: #9aa9c0;
+    border-radius: 12px;
+}
