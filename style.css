@@ -45,31 +45,17 @@ header h1 {
    NAVIGATION
 ========================= */
 
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 5px;
-    width: 90%;
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 6px;
+nav{
     background: #111d32;
     border: 1px solid #334e68;
     border-radius: 30px;
 }
 
-nav a {
+nav a:hover {
     color: #a8b6cc;
     text-decoration: none;
     font-size: 1.5rem;
     padding: 10px 15px;
-    transition: 0.3s ease;
-}
-
-nav a:hover {
-    color: #ffffff;
 }
 
 nav a.active {
