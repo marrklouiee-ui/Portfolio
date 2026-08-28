@@ -322,10 +322,11 @@ footer {
 
 /* Rectangular zoomed photo */
 .zoomed-photo {
+    width: auto;
+    height: auto;
     max-width: 90%;
-    max-height: 80%;
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    max-height: 90%;
+    border-radius: 10px;
 }
 
 /* X button */
