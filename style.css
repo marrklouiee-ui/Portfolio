@@ -46,23 +46,37 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     gap: 8px;
+    width: fit-content;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 8px;
+    background: #111c32;
+    border: 1px solid #263650;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
 }
 
 nav a {
-    color: white;
+    position: relative;
+    color: #e2e8f0;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: 500;
     padding: 10px 15px;
     border-radius: 12px;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 nav a:hover {
+    color: #ffffff;
     background: #38bdf8;
-    color: #020617;
     transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(56, 189, 248, 0.25);
+}
+
+nav a:active {
+    transform: scale(0.95);
 }
 
 
@@ -340,5 +354,25 @@ footer p {
 
     footer {
         padding: 25px 15px;
+    }
+}
+nav a:active {
+    transform: scale(0.95);
+}
+
+
+/* Mobile navbar */
+@media (max-width: 600px) {
+    nav {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    nav a {
+        white-space: nowrap;
+        font-size: 15px;
+        padding: 8px 10px;
     }
 }
