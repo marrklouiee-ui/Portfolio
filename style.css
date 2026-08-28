@@ -392,7 +392,7 @@ nav a:active {
         padding: 8px 10px;
     }
 }
-.profile {
+profile {
     width: 250px;
     height: 250px;
     object-fit: cover;
