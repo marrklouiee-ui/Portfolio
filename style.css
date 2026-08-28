@@ -291,7 +291,7 @@ footer p {
    MOBILE
 ========================= */
 
-
+@media (max-width: 600px){
     header h1 {
         font-size: 38px;
         margin-bottom: 15px;
