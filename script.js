@@ -1,52 +1,7 @@
-// Wait until the page loads
+// =========================
+// NAVIGATION ACTIVE LINK
+// =========================
 
-document.addEventListener("DOMContentLoaded", function () {
-
-    console.log("Portfolio loaded successfully!");
-
-
-    // Typing effect
-
-    const text =
-        "I'm a beginner programmer learning to build awesome things.";
-
-    const typingElement =
-        document.getElementById("typing-text");
-
-    let index = 0;
-
-
-    function typeText() {
-
-        if (index < text.length) {
-
-            typingElement.textContent +=
-                text.charAt(index);
-
-            index++;
-
-            setTimeout(typeText, 50);
-
-        }
-
-    }
-
-
-    typeText();
-
-});
-
-
-// Project button
-
-function showProject(projectName) {
-
-    alert(
-        projectName +
-        " will be available soon!"
-    );
-
-}
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll("nav a");
 
@@ -57,18 +12,25 @@ window.addEventListener("scroll", () => {
     sections.forEach(section => {
 
         const sectionTop = section.offsetTop - 150;
+        const sectionHeight = section.offsetHeight;
 
-        if (window.scrollY >= sectionTop) {
+        if (
+            window.scrollY >= sectionTop &&
+            window.scrollY < sectionTop + sectionHeight
+        ) {
             currentSection = section.getAttribute("id");
         }
 
     });
 
+
     navLinks.forEach(link => {
 
         link.classList.remove("active");
 
-        if (link.getAttribute("href") === "#" + currentSection) {
+        if (
+            link.getAttribute("href") === "#" + currentSection
+        ) {
             link.classList.add("active");
         }
 
@@ -76,3 +38,4 @@ window.addEventListener("scroll", () => {
 
 });
 
+        
