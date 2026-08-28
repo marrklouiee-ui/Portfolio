@@ -329,24 +329,4 @@ footer p {
     border-radius: 50%;
     object-fit: cover;
 }
-/* FINAL NAV FIX */
-nav a {
-    display: inline;
-    border: none !important;
-    border-radius: 0 !important;
-    font-size: 1.5rem !important;
-    padding: 10px 15px !important;
-    color: #a8b6cc;
-    text-decoration: none;
-}
 
-nav a:hover {
-    border: none !important;
-    background: none !important;
-}
-
-nav a.active {
-    background: #234b75 !important;
-    border: none !important;
-    border-radius: 20px !important;
-}
