@@ -544,4 +544,18 @@ footer {
     .section-title {
         font-size: 1.9rem;
     }
+        .personal-info {
+        padding: 20px;
+    }
+
+    .personal-info p {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .personal-info span {
+        width: auto;
+    }
+}
 }
