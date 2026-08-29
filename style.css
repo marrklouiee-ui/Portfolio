@@ -239,15 +239,16 @@ section {
 
     padding: 12px 22px;
 
-    background: #38bdf8;
-
+    background: #D4AF37;
     color: #0f172a;
 
-    text-decoration: none;
+    border: none;
+    border-radius: 8px;
 
     font-weight: bold;
+    text-decoration: none;
 
-    border-radius: 8px;
+    cursor: pointer;
 
     transition: 0.3s;
 }
