@@ -89,7 +89,10 @@ nav a:hover {
         0 0 10px rgba(56, 189, 248, 0.35),
         0 0 20px rgba(56, 189, 248, 0.15);
 }
-
+nav a.active {
+    color: white;
+    background: #334155;
+}
 
 /* =========================
    SECTIONS
