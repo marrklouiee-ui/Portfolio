@@ -23,3 +23,15 @@ window.addEventListener("scroll", () => {
     });
 
 });
+function openInfoModal() {
+    const modal = document.getElementById("infoModal");
+
+    modal.style.display = "flex";
+}
+
+
+function closeInfoModal() {
+    const modal = document.getElementById("infoModal");
+
+    modal.style.display = "none";
+}
