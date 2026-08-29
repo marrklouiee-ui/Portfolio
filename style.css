@@ -203,30 +203,19 @@ section {
         0 0 30px rgba(56, 189, 248, 0.25);
 }
 .personal-info {
-    max-width: 700px;
-    margin: 30px auto;
-    padding: 30px;
-
-    background: #17132B;
-
-    border: 2px solid #D4AF37;
-    border-radius: 15px;
-
-    box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+    width: 100%;
 }
 
 .personal-info p {
     display: flex;
-
     align-items: center;
 
-    padding: 15px 5px;
-
+    padding: 14px 5px;
     margin: 0;
 
     color: #e2e8f0;
 
-    border-bottom: 1px solid #FFD700;
+    border-bottom: 1px solid #334155;
 }
 
 .personal-info p:last-child {
@@ -266,7 +255,17 @@ section {
 .button:hover {
     transform: translateY(-3px);
 }
+.modal-content {
+    width: 100%;
+    max-width: 600px;
 
+    padding: 35px;
+
+    background: #17132B;
+
+    border: 2px solid #D4AF37;
+    border-radius: 15px;
+}
 
 /* =========================
    CARDS
