@@ -255,6 +255,32 @@ section {
 .button:hover {
     transform: translateY(-3px);
 }
+.close-button {
+    position: absolute;
+
+    top: 15px;
+    left: 15px;
+
+    padding: 8px 15px;
+
+    background: transparent;
+
+    color: #D4AF37;
+
+    border: 1px solid #D4AF37;
+    border-radius: 8px;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.close-button:hover {
+    background: #D4AF37;
+    color: #17132B;
+}
 .modal {
     display: none;
 
