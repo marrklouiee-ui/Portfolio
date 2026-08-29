@@ -99,8 +99,8 @@ nav a.active {
 ========================= */
 
 section {
-    
-    padding: 80px 8%;
+    min-height: auto;
+    padding: 120px 8% 60px;
 }
 
 .section-title {
