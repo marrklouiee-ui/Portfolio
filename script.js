@@ -24,14 +24,9 @@ window.addEventListener("scroll", () => {
 
 });
 function openInfoModal() {
-    const modal = document.getElementById("infoModal");
-
-    modal.style.display = "flex";
+    document.getElementById("infoModal").style.display = "flex";
 }
 
-
 function closeInfoModal() {
-    const modal = document.getElementById("infoModal");
-
-    modal.style.display = "none";
+    document.getElementById("infoModal").style.display = "none";
 }
