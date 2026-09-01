@@ -255,7 +255,7 @@ section {
 }
 
 .button:hover {
-    transform: translateY(-3px);
+    surface: wave(x, y);
 }
 .button:active {
     transform: scale(0.95);
